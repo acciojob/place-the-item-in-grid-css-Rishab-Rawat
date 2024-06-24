@@ -1,10 +1,27 @@
 
 /* Your CSS Code here. */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
 .holder {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  width: 200px;
-  height: 200px;
-  gap: 0; /* No gap between grid items, can be adjusted if needed */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 200px;
+    height: 200px;
+    gap: 0; /* Optional: add gap between grid items if needed */
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000; /* Optional: for better visibility */
+    background-color: #ddd; /* Optional: for better visibility */
 }
